@@ -1,0 +1,8 @@
+-- /shared/Group1/App_RegTest_v05/2.BusinessLayer/2.5.Publish/vwPubTestView
+-- TABLE
+-- 2020.09.17-19.57.40
+
+DROP TABLE [ESB_Tibco_TDV].[Group1].[cache_App_RegTest_v05_vwPubTestView0]; 
+Go
+DROP TABLE [ESB_Tibco_TDV].[Group1].[cache_App_RegTest_v05_vwPubTestView1]; 
+Go
