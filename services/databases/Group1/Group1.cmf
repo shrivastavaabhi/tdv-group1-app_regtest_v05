@@ -1,0 +1,24 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:49a58962-49a2-4b32-949a-ce28e17a1421 -->
+<metadata name="Group1" path="/services/databases/Group1" type="DATA_SOURCE" subtype="RELATIONAL" changeToken="0" virtual="true">
+  <security>
+    <owner user="admin" domain="composite"/>
+    <privilege user="anonymous" domain="composite" privileges="READ"/>
+    <privilege group="TDV_REPORTING_CustomerService" domain="nscorp-test" privileges="READ EXECUTE SELECT"/>
+    <privilege group="TDV_REPORTING_Marketing" domain="nscorp-test" privileges="READ EXECUTE SELECT"/>
+    <privilege group="TDV_REPORTING_Accounting" domain="nscorp-test" privileges="READ EXECUTE SELECT"/>
+    <privilege group="TDV_REPORTING_NPO" domain="nscorp-test" privileges="READ EXECUTE SELECT"/>
+  </security>
+  <attribute name="creationDate" type="LONG">1590599743810</attribute>
+  <attribute name="creatorUserDomain" type="STRING">composite</attribute>
+  <attribute name="creatorUserId" type="INTEGER">-1973</attribute>
+  <attribute name="creatorUserName" type="STRING">admin</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1590602785681</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">composite</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">-1973</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">admin</attribute>
+  <attribute name="name" type="STRING">Group1</attribute>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1590599743810</attribute>
+  <attribute name="selectionState" type="INTEGER">2</attribute>
+  <attribute name="type" type="STRING">VirtualRelational</attribute>
+</metadata>
