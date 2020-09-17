@@ -1,0 +1,28 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:3e4e263b-d5c9-4059-8a6b-d6f262983a02 -->
+<metadata name="App_RegTest_v05" path="/services/webservices/Group1/App_RegTest_v05" type="DATA_SOURCE" subtype="COMPOSITE_WEB_SERVICE" changeToken="0" virtual="true">
+  <security>
+    <owner user="admin" domain="composite"/>
+    <privilege user="anonymous" domain="composite" privileges="READ"/>
+    <privilege group="TDV_REPORTING_CustomerService" domain="nscorp-test" privileges="READ EXECUTE SELECT"/>
+    <privilege group="TDV_REPORTING_Marketing" domain="nscorp-test" privileges="READ EXECUTE SELECT"/>
+    <privilege group="TDV_REPORTING_Accounting" domain="nscorp-test" privileges="READ EXECUTE SELECT"/>
+    <privilege group="TDV_REPORTING_NPO" domain="nscorp-test" privileges="READ EXECUTE SELECT"/>
+  </security>
+  <dependency target="/policy/security/system/Http-Basic-Authentication.xml" type="POLICY">
+    <datatype name="Tree" type="TREE" refId="257"></datatype>
+  </dependency>
+  <attribute name="bindingModel" type="STRING">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;&lt;bindingModel&gt;&lt;portBindings&gt;&lt;portBinding xsi:type=&quot;soapPortBinding&quot; timeout=&quot;0&quot; targetNamespace=&quot;http://tempuri.org/&quot; serviceName=&quot;App_RegTest_v05&quot; portTypeName=&quot;{http://tempuri.org/}App_RegTest_v05PortType&quot; portName=&quot;App_RegTest_v05Port&quot; policyName=&quot;/policy/security/system/Http-Basic-Authentication.xml&quot; implementationFolder=&quot;/shared/impl/Group1/App_RegTest_v05&quot; enableMTOM=&quot;false&quot; enableCustomEndpoint=&quot;false&quot; contractStyle=&quot;ABSTRACT&quot; contractFirst=&quot;false&quot; bindingName=&quot;{http://tempuri.org/}App_RegTest_v05Binding&quot; soap12ContextUrlPath=&quot;/soap12&quot; soap11ContextUrlPath=&quot;/soap11&quot; endpointUrlPath=&quot;/Group1/App_RegTest_v05&quot; enabled=&quot;true&quot; bindingStyles=&quot;WSDL11_SOAP11_HTTP WSDL11_SOAP12_HTTP&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;&gt;&lt;operationBindings/&gt;&lt;/portBinding&gt;&lt;portBinding xsi:type=&quot;restfulPortBinding&quot; targetNamespace=&quot;http://tempuri.org/&quot; serviceName=&quot;App_RegTest_v05&quot; jsonWrappedTable=&quot;true&quot; jsonWrappedCursor=&quot;true&quot; jsonValidateXml=&quot;true&quot; jsonUseProcParamName=&quot;false&quot; jsonPackageName=&quot;App_RegTest_v05&quot; jsonFieldAsString=&quot;false&quot; jsonBareValue=&quot;false&quot; xmlContextUrlPath=&quot;/xml&quot; jsonContextUrlPath=&quot;/json&quot; endpointUrlPath=&quot;/Group1/App_RegTest_v05&quot; enabled=&quot;true&quot; bindingStyles=&quot;REST_XML REST_JSON&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;&gt;&lt;operationBindings/&gt;&lt;httpSecurityModel transportSecurity=&quot;ENABLED&quot; authSchemes=&quot;BASIC&quot;/&gt;&lt;/portBinding&gt;&lt;portBinding xsi:type=&quot;oDataPortBinding&quot; writable=&quot;false&quot; useActionforProc=&quot;false&quot; targetNamespace=&quot;App_RegTest_v05&quot; showCapabilities=&quot;false&quot; serviceName=&quot;App_RegTest_v05&quot; contextUrlPath=&quot;/odata4/webservices/&quot; endpointUrlPath=&quot;/Group1/App_RegTest_v05&quot; enabled=&quot;true&quot; bindingStyles=&quot;ODATAV4&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;&gt;&lt;operationBindings/&gt;&lt;httpSecurityModel transportSecurity=&quot;ENABLED&quot; authSchemes=&quot;BASIC&quot;/&gt;&lt;ODataMetadataMode&gt;INCLUDE_SUBSERVICES_NAME&lt;/ODataMetadataMode&gt;&lt;/portBinding&gt;&lt;/portBindings&gt;&lt;/bindingModel&gt;</attribute>
+  <attribute name="creationDate" type="LONG">1600385866769</attribute>
+  <attribute name="creatorUserDomain" type="STRING">composite</attribute>
+  <attribute name="creatorUserId" type="INTEGER">-1973</attribute>
+  <attribute name="creatorUserName" type="STRING">admin</attribute>
+  <attribute name="driverName" type="STRING">COMPOSITE_WEB_SERVICE</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1600385866769</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">composite</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">-1973</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">admin</attribute>
+  <attribute name="name" type="STRING">App_RegTest_v05</attribute>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1600385866769</attribute>
+  <attribute name="type" type="STRING">CompositeWebService</attribute>
+</metadata>
