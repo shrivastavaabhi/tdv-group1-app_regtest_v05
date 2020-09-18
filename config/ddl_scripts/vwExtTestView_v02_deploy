@@ -1,106 +1,13 @@
 -- /shared/Group1/App_RegTest_v05/2.BusinessLayer/2.1.Extract/vwExtTestView_v02
 -- TABLE
 
--- 2020.09.18-14.02.07
+-- 2020.09.18-14.08.57
 
-CREATE TABLE [ESB_Tibco_TDV].[Group1].[cache_App_RegTest_v05_vwExtTestView_v020] ( 
-[OPERATING_STATION_5_SPELL] char(5),
-[TYES_CLASS_CODE] varchar(10),
-[LOCAL_CUSTOMER_ACCOUNT_NUMBER] varchar(10),
-[ALTERNATE_CUSTOMER_ACCOUNT_NUMBER] varchar(10),
-[PRIORITY] int,
-[DEMURRAGE_BILL_TYPE] varchar(13),
-[STCC] varchar(7),
-[AAR_CAR_TYPE] varchar(4),
-[SCC] varchar(7),
-[FCC] varchar(7),
-[EFF_DTM] datetime2,
-[EXP_DTM] datetime2,
-[TEST_COL] varchar(20),
-[TEST_COL1] varchar(20),
-[TEST_COL2] varchar(20),
-[TEST_COL3] varchar(20),
-[TEST_COL4] varchar(20),
-[TEST_COL5] varchar(20),
-[TEST_COL6] varchar(20),
-[TEST_COL7] varchar(20),
-[TEST_COL8] varchar(10),
-[TEST_COL9] varchar(5)
-);
+DROP TABLE [ESB_Tibco_TDV].[Group1].[cache_App_RegTest_v05_vwExtTestView_v020]; 
 
 Go
 
-CREATE TABLE [ESB_Tibco_TDV].[Group1].[cache_App_RegTest_v05_vwExtTestView_v021] ( 
-[OPERATING_STATION_5_SPELL] char(5),
-[TYES_CLASS_CODE] varchar(10),
-[LOCAL_CUSTOMER_ACCOUNT_NUMBER] varchar(10),
-[ALTERNATE_CUSTOMER_ACCOUNT_NUMBER] varchar(10),
-[PRIORITY] int,
-[DEMURRAGE_BILL_TYPE] varchar(13),
-[STCC] varchar(7),
-[AAR_CAR_TYPE] varchar(4),
-[SCC] varchar(7),
-[FCC] varchar(7),
-[EFF_DTM] datetime2,
-[EXP_DTM] datetime2,
-[TEST_COL] varchar(20),
-[TEST_COL1] varchar(20),
-[TEST_COL2] varchar(20),
-[TEST_COL3] varchar(20),
-[TEST_COL4] varchar(20),
-[TEST_COL5] varchar(20),
-[TEST_COL6] varchar(20),
-[TEST_COL7] varchar(20),
-[TEST_COL8] varchar(10),
-[TEST_COL9] varchar(5)
-);
+DROP TABLE [ESB_Tibco_TDV].[Group1].[cache_App_RegTest_v05_vwExtTestView_v021]; 
 
 Go
 
--- /shared/Group1/App_RegTest_v05/2.BusinessLayer/2.1.Extract/vwExtTestView_v02
--- TABLE
-
--- 2020.09.18-14.02.08
-
-Go
-CREATE INDEX [cache_App_RegTest_v05_vwExtTestView_v020_newTest] ON [ESB_Tibco_TDV].[Group1].[cache_App_RegTest_v05_vwExtTestView_v020](
-[SCC] DESC, 
-[AAR_CAR_TYPE] ASC
-);
-
-Go
-
-CREATE INDEX [cache_App_RegTest_v05_vwExtTestView_v020_indx1] ON [ESB_Tibco_TDV].[Group1].[cache_App_RegTest_v05_vwExtTestView_v020](
-[DEMURRAGE_BILL_TYPE] DESC, 
-[TYES_CLASS_CODE] ASC
-);
-
-Go
-
-CREATE INDEX [cache_App_RegTest_v05_vwExtTestView_v020_indx2] ON [ESB_Tibco_TDV].[Group1].[cache_App_RegTest_v05_vwExtTestView_v020](
-[SCC] 
-);
-
-Go
-
-CREATE INDEX [cache_App_RegTest_v05_vwExtTestView_v021_newTest] ON [ESB_Tibco_TDV].[Group1].[cache_App_RegTest_v05_vwExtTestView_v021](
-[SCC] DESC, 
-[AAR_CAR_TYPE] ASC
-);
-
-Go
-
-CREATE INDEX [cache_App_RegTest_v05_vwExtTestView_v021_indx1] ON [ESB_Tibco_TDV].[Group1].[cache_App_RegTest_v05_vwExtTestView_v021](
-[DEMURRAGE_BILL_TYPE] DESC, 
-[TYES_CLASS_CODE] ASC
-);
-
-Go
-
-CREATE INDEX [cache_App_RegTest_v05_vwExtTestView_v021_indx2] ON [ESB_Tibco_TDV].[Group1].[cache_App_RegTest_v05_vwExtTestView_v021](
-[SCC] 
-);
-
-Go
-
-Go
