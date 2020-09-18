@@ -1,0 +1,44 @@
+-- /shared/Group1/App_RegTest_v05/2.BusinessLayer/2.1.Extract/vwExtSQLRegTest
+-- TABLE
+
+-- 2020.09.17-20.00.24
+
+DROP TABLE [ESB_Tibco_TDV].[Group1].[cache_App_RegTest_v05_vwExtSQLRegTest0]; 
+Go
+CREATE TABLE [ESB_Tibco_TDV].[Group1].[cache_App_RegTest_v05_vwExtSQLRegTest0] ( 
+[RegTestID] varchar(50),
+[TestName] varchar(50),
+[StepName] varchar(50)
+);
+
+Go
+
+DROP TABLE [ESB_Tibco_TDV].[Group1].[cache_App_RegTest_v05_vwExtSQLRegTest1]; 
+Go
+CREATE TABLE [ESB_Tibco_TDV].[Group1].[cache_App_RegTest_v05_vwExtSQLRegTest1] ( 
+[RegTestID] varchar(50),
+[TestName] varchar(50),
+[StepName] varchar(50)
+);
+
+Go
+
+-- /shared/Group1/App_RegTest_v05/2.BusinessLayer/2.1.Extract/vwExtSQLRegTest
+-- TABLE
+
+-- 2020.09.17-20.00.24
+
+Go
+CREATE UNIQUE INDEX [cache_App_RegTest_v05_vwExtSQLRegTest0_idx1] ON [ESB_Tibco_TDV].[Group1].[cache_App_RegTest_v05_vwExtSQLRegTest0](
+[RegTestID] ASC
+);
+
+Go
+
+CREATE UNIQUE INDEX [cache_App_RegTest_v05_vwExtSQLRegTest1_idx1] ON [ESB_Tibco_TDV].[Group1].[cache_App_RegTest_v05_vwExtSQLRegTest1](
+[RegTestID] ASC
+);
+
+Go
+
+Go
