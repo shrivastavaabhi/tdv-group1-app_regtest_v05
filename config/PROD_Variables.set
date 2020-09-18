@@ -1,0 +1,15 @@
+-set /shared/Group1/App_RegTest_v05/1.PhysicalLayer/DS-TYES DATA_SOURCE user tyestdv
+-set /shared/Group1/App_RegTest_v05/1.PhysicalLayer/DS-TYES DATA_SOURCE port 50012
+-set /shared/Group1/App_RegTest_v05/1.PhysicalLayer/DS-TYES DATA_SOURCE password 3360AE207801A5A0
+-set /shared/Group1/App_RegTest_v05/1.PhysicalLayer/DS-TYES DATA_SOURCE host db2tyesqa.atldc.nscorp.com
+-set /shared/Group1/App_RegTest_v05/1.PhysicalLayer/DS-TYES DATA_SOURCE database tyesqa
+-set /shared/Group1/App_RegTest_v05/1.PhysicalLayer/DS-Inventory DATA_SOURCE user tutorial
+-set /shared/Group1/App_RegTest_v05/1.PhysicalLayer/DS-Inventory DATA_SOURCE port 12508
+-set /shared/Group1/App_RegTest_v05/1.PhysicalLayer/DS-Inventory DATA_SOURCE password A49A5A0FAFF13F4A
+-set /shared/Group1/App_RegTest_v05/1.PhysicalLayer/DS-Inventory DATA_SOURCE host localhost
+-set /shared/Group1/App_RegTest_v05/1.PhysicalLayer/DS-Inventory DATA_SOURCE database inventory
+-set /shared/Group1/App_RegTest_v05/1.PhysicalLayer/DS-SqlRegTest DATA_SOURCE user syaxajq
+-set /shared/Group1/App_RegTest_v05/1.PhysicalLayer/DS-SqlRegTest DATA_SOURCE port 7600
+-set /shared/Group1/App_RegTest_v05/1.PhysicalLayer/DS-SqlRegTest DATA_SOURCE password B265140BA77B45453B221A4CEB388744
+-set /shared/Group1/App_RegTest_v05/1.PhysicalLayer/DS-SqlRegTest DATA_SOURCE host IT2K14PRRT1.nscorp.com\IT
+-set /shared/Group1/App_RegTest_v05/1.PhysicalLayer/DS-SqlRegTest DATA_SOURCE database ESB_Tibco_TDV
