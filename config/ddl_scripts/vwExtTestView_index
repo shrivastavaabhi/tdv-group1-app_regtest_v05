@@ -1,7 +1,16 @@
 -- /shared/Group1/App_RegTest_v05/2.BusinessLayer/2.1.Extract/vwExtTestView
 -- TABLE
 
--- 2020.09.18-14.08.57
+-- 2020.09.18-14.14.54
+
+DROP INDEX
+[cache_App_RegTest_v05_vwExtTestView0_indx1] ON [ESB_Tibco_TDV].[Group1].[cache_App_RegTest_v05_vwExtTestView0],
+[cache_App_RegTest_v05_vwExtTestView1_indx1] ON [ESB_Tibco_TDV].[Group1].[cache_App_RegTest_v05_vwExtTestView1],
+[cache_App_RegTest_v05_vwExtTestView0_indx2] ON [ESB_Tibco_TDV].[Group1].[cache_App_RegTest_v05_vwExtTestView0],
+[cache_App_RegTest_v05_vwExtTestView1_indx2] ON [ESB_Tibco_TDV].[Group1].[cache_App_RegTest_v05_vwExtTestView1],
+[cache_App_RegTest_v05_vwExtTestView0_newTest] ON [ESB_Tibco_TDV].[Group1].[cache_App_RegTest_v05_vwExtTestView0],
+[cache_App_RegTest_v05_vwExtTestView1_newTest] ON [ESB_Tibco_TDV].[Group1].[cache_App_RegTest_v05_vwExtTestView1]
+;
 
 Go
 CREATE INDEX [cache_App_RegTest_v05_vwExtTestView0_newTest] ON [ESB_Tibco_TDV].[Group1].[cache_App_RegTest_v05_vwExtTestView0](
