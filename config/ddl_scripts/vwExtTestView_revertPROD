@@ -1,0 +1,7 @@
+-- /shared/Group1/App_RegTest_v05/2.BusinessLayer/2.1.Extract/vwExtTestView
+-- TABLE
+
+DROP TABLE [ESB_Tibco_TDV].[Group1].[cache_App_RegTest_v05_vwExtTestView0]; 
+Go
+DROP TABLE [ESB_Tibco_TDV].[Group1].[cache_App_RegTest_v05_vwExtTestView1]; 
+Go

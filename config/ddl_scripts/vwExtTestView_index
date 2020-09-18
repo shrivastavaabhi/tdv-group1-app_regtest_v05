@@ -1,0 +1,46 @@
+-- /shared/Group1/App_RegTest_v05/2.BusinessLayer/2.1.Extract/vwExtTestView
+-- TABLE
+
+-- 2020.09.18-13.57.19
+
+Go
+CREATE INDEX [cache_App_RegTest_v05_vwExtTestView0_newTest] ON [ESB_Tibco_TDV].[Group1].[cache_App_RegTest_v05_vwExtTestView0](
+[SCC] DESC, 
+[AAR_CAR_TYPE] ASC
+);
+
+Go
+
+CREATE INDEX [cache_App_RegTest_v05_vwExtTestView0_indx1] ON [ESB_Tibco_TDV].[Group1].[cache_App_RegTest_v05_vwExtTestView0](
+[DEMURRAGE_BILL_TYPE] DESC, 
+[TYES_CLASS_CODE] ASC
+);
+
+Go
+
+CREATE INDEX [cache_App_RegTest_v05_vwExtTestView0_indx2] ON [ESB_Tibco_TDV].[Group1].[cache_App_RegTest_v05_vwExtTestView0](
+[SCC] 
+);
+
+Go
+
+CREATE INDEX [cache_App_RegTest_v05_vwExtTestView1_newTest] ON [ESB_Tibco_TDV].[Group1].[cache_App_RegTest_v05_vwExtTestView1](
+[SCC] DESC, 
+[AAR_CAR_TYPE] ASC
+);
+
+Go
+
+CREATE INDEX [cache_App_RegTest_v05_vwExtTestView1_indx1] ON [ESB_Tibco_TDV].[Group1].[cache_App_RegTest_v05_vwExtTestView1](
+[DEMURRAGE_BILL_TYPE] DESC, 
+[TYES_CLASS_CODE] ASC
+);
+
+Go
+
+CREATE INDEX [cache_App_RegTest_v05_vwExtTestView1_indx2] ON [ESB_Tibco_TDV].[Group1].[cache_App_RegTest_v05_vwExtTestView1](
+[SCC] 
+);
+
+Go
+
