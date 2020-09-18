@@ -1,0 +1,22 @@
+-- /shared/Group1/App_RegTest_v05/2.BusinessLayer/2.5.Publish/vwPubTestView
+-- TABLE
+
+-- 2020.09.18-14.21.37
+
+Go
+CREATE INDEX [cache_App_RegTest_v05_vwPubTestView0_idx1] ON [ESB_Tibco_TDV].[Group1].[cache_App_RegTest_v05_vwPubTestView0](
+[TYES_CLASS_CODE] ASC, 
+[OPER_STN_NAME] , 
+[STN] DESC
+);
+
+Go
+
+CREATE INDEX [cache_App_RegTest_v05_vwPubTestView1_idx1] ON [ESB_Tibco_TDV].[Group1].[cache_App_RegTest_v05_vwPubTestView1](
+[TYES_CLASS_CODE] ASC, 
+[OPER_STN_NAME] , 
+[STN] DESC
+);
+
+Go
+

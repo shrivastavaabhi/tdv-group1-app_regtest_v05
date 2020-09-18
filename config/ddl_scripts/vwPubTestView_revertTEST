@@ -1,8 +1,39 @@
 -- /shared/Group1/App_RegTest_v05/2.BusinessLayer/2.5.Publish/vwPubTestView
 -- TABLE
--- 2020.09.17-19.57.39
+
+-- 2020.09.18-14.21.37
 
 DROP TABLE [ESB_Tibco_TDV].[Group1].[cache_App_RegTest_v05_vwPubTestView0]; 
 Go
+CREATE TABLE [ESB_Tibco_TDV].[Group1].[cache_App_RegTest_v05_vwPubTestView0] ( 
+[STN] char(5),
+[OPER_STN_NAME] char(19),
+[TYES_CLASS_CODE] varchar(10),
+[TK_ID] varchar(6),
+[INDUS_NR] varchar(4),
+[OPEN_DAY_OF_WEEK_NR] char(1),
+[BUSINESS_OPEN_TIME] time,
+[CLOSE_DAY_OF_WEEK_NR] char(1),
+[BUSINESS_CLOSE_TIME] time,
+[ISWAREHOUSE] varchar(1)
+);
+
+Go
+
 DROP TABLE [ESB_Tibco_TDV].[Group1].[cache_App_RegTest_v05_vwPubTestView1]; 
 Go
+CREATE TABLE [ESB_Tibco_TDV].[Group1].[cache_App_RegTest_v05_vwPubTestView1] ( 
+[STN] char(5),
+[OPER_STN_NAME] char(19),
+[TYES_CLASS_CODE] varchar(10),
+[TK_ID] varchar(6),
+[INDUS_NR] varchar(4),
+[OPEN_DAY_OF_WEEK_NR] char(1),
+[BUSINESS_OPEN_TIME] time,
+[CLOSE_DAY_OF_WEEK_NR] char(1),
+[BUSINESS_CLOSE_TIME] time,
+[ISWAREHOUSE] varchar(1)
+);
+
+Go
+
